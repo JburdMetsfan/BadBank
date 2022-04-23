@@ -1,0 +1,54 @@
+nav {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 18px;
+    text-align: center;
+    background: #6e6f70;
+  }
+  
+  nav a {
+    transition: 0.3s ease;
+    background: #6e6f70;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+  }
+  nav a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0; 
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5px;
+    max-height: fit-content;
+  }
+  
+  .card-header {
+    font-weight: medium;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .card-title,
+  .card-text {
+    text-align: center;
+  }
+
+  /*navigation css code sourced from Zaqz on Stack Overflow, changes made to some settings
